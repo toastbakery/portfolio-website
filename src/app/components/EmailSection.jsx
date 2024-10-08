@@ -44,10 +44,10 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-16 py-24 gap-4 relative"
     >
-      {/* top-full: Positions the element's top edge at the bottom of its parent */}
+      {/* top-full: Positions the element top edge at the bottom of its parent */}
       <div className="absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full blur-lg top-3/4 -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&#39;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
