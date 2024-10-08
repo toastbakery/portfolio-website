@@ -7,7 +7,7 @@ export const metadata = {
   title: "My Portfolio",
   description: "My Portfolio Website",
   icons: {
-    icon: "../../public/favicon.png",
+    icon: "/favicon.png",
   },
 };
 
