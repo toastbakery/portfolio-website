@@ -61,12 +61,8 @@ const Navbar = () => {
           <ul className="p-0 flex space-x-8 mt-0">
             {navLinks.map((link) => {
               return (
-                <li>
-                  <NavLink
-                    key={link.title}
-                    title={link.title}
-                    href={link.path}
-                  />
+                <li key={link.title}>
+                  <NavLink title={link.title} href={link.path} />
                 </li>
               );
             })}
